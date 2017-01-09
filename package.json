@@ -1,0 +1,20 @@
+{
+  "name": "upstate-transit-api",
+  "version": "0.0.1",
+  "description": "An API for transit information in Upstate New York",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -u exports test/*"
+  },
+  "author": "Mark Headd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gtfs": "^0.9.2",
+    "mongoose": "^4.7.6"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+  }
+}
